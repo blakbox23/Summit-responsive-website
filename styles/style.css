@@ -265,7 +265,6 @@ header {
 .tickets {
   width: 100%;
   margin: auto;
-  min-height: 100vh;
   background-color: rgb(248, 240, 240);
 }
 
@@ -273,6 +272,12 @@ header {
   text-align: center;
   padding: 20px;
   margin-bottom: 20px;
+}
+
+.tickets-header h1 {
+  font-size: 1.9rem;
+  color: var(--redish-color);
+  margin: 20px;
 }
 
 .ticket-card-container {
@@ -350,7 +355,7 @@ header {
 .about-landing-footer {
   text-align: center;
   padding: 20px 20px 70px;
-  font-size: 1.1rem;;
+  font-size: 1.1rem;
 }
 
 .about-landing-footer a {
@@ -429,6 +434,10 @@ header {
 /* END OF ABOUT PAGE */
 
 @media screen and (min-width: 768px) {
+  .mobile-nav i {
+    display: none;
+  }
+
   .main-program {
     padding: 80px 20px;
   }
