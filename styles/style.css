@@ -489,6 +489,18 @@ header {
 
 /* END OF ABOUT PAGE */
 
+/* 404 PAGE */
+.not-found {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 8rem;
+}
+
+.not-found h1 {
+  color: var(--redish-color);
+}
+/* END OF 404 PAGE */
+
 @media screen and (min-width: 768px) {
   .mobile-nav i {
     display: none;
