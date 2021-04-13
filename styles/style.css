@@ -289,11 +289,18 @@ header {
   list-style: none;
   margin: 2px;
   font-size: 1.2rem;
-  color: var(--redish-color);
   font-weight: bold;
   text-align: center;
   border-right: 1px solid;
   padding: 0.5px 10px;
+  color: var(--redish-color);
+
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: var(--redish-color);
+
 }
 
 .rights {
