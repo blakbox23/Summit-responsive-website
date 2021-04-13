@@ -48,7 +48,8 @@ header {
   width: 100%;
   height: calc(100vh - 80px);
   padding: 20px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("https://source.unsplash.com/2s3ILi-zP-o");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+    url('https://source.unsplash.com/2s3ILi-zP-o');
   background-size: cover;
   background-position: top;
 }
@@ -82,7 +83,7 @@ header {
 
 /* MAIN PROGRAM AREA */
 .main-program {
-  background: url("https://source.unsplash.com/2JONUbTfN38");
+  background: url('https://source.unsplash.com/2JONUbTfN38');
   padding: 10px;
   color: #fff;
 }
@@ -252,3 +253,59 @@ header {
 }
 
 /* END OF FOOTER */
+
+/* TICKETS PAGE */
+.tickets {
+  width: 100%;
+  margin: auto;
+  min-height: 100vh;
+  background-color: rgb(248, 240, 240);
+}
+.tickets-header {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.ticket-card-container {
+  padding: 40px;
+}
+.ticket-card h2 {
+  background-color: var(--redish-color);
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.ticket-card {
+  background-color: #fff;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.ticket-price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--redish-color);
+  text-align: center;
+  margin: 20px;
+}
+
+.ticket-body {
+  padding: 20px;
+}
+
+.ticket-button {
+  text-align: center;
+  margin: auto;
+}
+
+.ticket-button button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: var(--dark-color);
+}
+
+/* END OF TICKETS PAGE */
