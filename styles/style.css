@@ -48,7 +48,8 @@ header {
   width: 100%;
   height: calc(100vh - 80px);
   padding: 20px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
     url('https://source.unsplash.com/2s3ILi-zP-o');
   background-size: cover;
   background-position: top;
@@ -261,6 +262,7 @@ header {
   min-height: 100vh;
   background-color: rgb(248, 240, 240);
 }
+
 .tickets-header {
   text-align: center;
   padding: 20px;
@@ -270,6 +272,7 @@ header {
 .ticket-card-container {
   padding: 40px;
 }
+
 .ticket-card h2 {
   background-color: var(--redish-color);
   color: white;
@@ -327,6 +330,7 @@ header {
   color: rgb(240, 24, 24);
   font-size: 1.5rem;
 }
+
 .about-landing-text {
   text-align: center;
   width: 60%;
@@ -336,6 +340,7 @@ header {
   background-color: #fff;
   color: var(--dark-color);
 }
+
 .about-landing-footer {
   text-align: center;
   padding: 20px 20px 70px;
@@ -352,9 +357,6 @@ header {
   width: 96%;
   margin: auto;
   text-align: center;
-}
-
-.about-logo-section {
   padding: 40px 0 10px;
 }
 
@@ -403,7 +405,7 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
   margin: 15px 15px 50px 15px;
-  background: linear-gradient(to bottom,rgba(233, 79, 79, 0.6),rgba(233, 79, 79, 0.6)), url('https://source.unsplash.com/lz9D9xC9PQU');
+  background: linear-gradient(to bottom, rgba(233, 79, 79, 0.6), rgba(233, 79, 79, 0.6)), url('https://source.unsplash.com/lz9D9xC9PQU');
   background-size: cover;
   background-position: center;
 }
@@ -418,3 +420,77 @@ header {
 }
 
 /* END OF ABOUT PAGE */
+
+@media screen and (min-width: 768px) {
+  .main-program {
+    padding: 80px 20px;
+  }
+
+  .main-prog-container {
+    flex-direction: row;
+  }
+
+  .main-prog-card {
+    flex-direction: column;
+    padding: 25px 5px 60px 5px;
+  }
+
+  .featured-speaker-container {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-speaker-card {
+    flex-direction: row;
+    width: 90%;
+    margin: 20px;
+  }
+
+  /*  .speaker-card-image {
+   }
+*/
+  .speaker-card-text {
+    min-width: 50%;
+  }
+
+  .speaker-card-image img {
+    width: 100%;
+    padding: 10px;
+    height: 90%;
+  }
+
+  .f1container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .ticket-card-container {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer2-logo,
+  .footer2-text {
+    width: 50%;
+    padding: 2rem;
+  }
+
+  .pastconf-card-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .pastconf-card {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .featured-speaker-container {
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+  }
+}
