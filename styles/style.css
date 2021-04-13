@@ -45,16 +45,22 @@ header {
 }
 
 .mobile-links {
-  border: 1px solid black;
-  display: flex;
-  justify-content: end;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 100%;
+  margin: auto;
+  display: none;
+  position: fixed;
+  top:60px;
+  text-align: end;
+
+
 }
 .mobile-link-list {
   display: flex;
   flex-direction: column;
   list-style-type: none;
+  width:100%;
 }
 
 .mobile-link-list a{
@@ -64,6 +70,11 @@ header {
 
 .mobile-link-list li{
   margin:5px;
+}
+
+#close {
+  margin: auto;
+  font-size:1.5rem;
 }
 
 .timeplace {
@@ -85,6 +96,14 @@ header {
   background-position: top;
 }
 
+.landing-logo a {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--greyish-color);
+  
+}
+
 .landing-text {
   color: #fff;
   flex-direction: column;
@@ -103,13 +122,17 @@ header {
 .lp-cta {
   font-size: 1.5rem;
   background-color: var(--redish-color);
-  color: #fff;
   margin-top: 30px;
   width: 10rem;
   font-weight: 700;
   padding: 0.6rem 1.25rem;
-  transition: all 0.4s ease-in-out;
   border: none;
+}
+
+.lp-cta a {
+  text-decoration: none;
+  color: #fff;
+
 }
 
 /* MAIN PROGRAM AREA */
@@ -395,7 +418,7 @@ header {
   width: 96%;
   margin: auto;
   text-align: center;
-  padding: 40px 0 10px;
+  padding: 40px 0;
 }
 
 .about-logo-section p {
@@ -480,6 +503,7 @@ header {
   .top-link-list a {
     text-decoration: none;
     color: #fff;
+    font-size: 1.05rem;
   }
 
   .main-program {

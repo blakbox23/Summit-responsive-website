@@ -13,8 +13,8 @@
 <body>
 
     <header class="flex border">
-        <div class="landing-logo">HackerConf</div>
-        <nav class="mobile-nav"><i class="fa fa-bars"></i></nav>
+        <div class="landing-logo"><a href="index.html">HackerConf</a> </div>
+        <nav class="mobile-nav"><i class="fa fa-bars" id="burger"></i></nav>
         <nav class="tab-nav">
             <ul class="flex top-link-list">
                 <li><a href="index.html">  Home</a></li>
@@ -24,6 +24,17 @@
             </ul>
         </nav>
     </header>
+
+   <div class="mobile-links">
+        <ul class=" mobile-link-list">
+            <li><a href="index.html">  Home</a></li>
+            <li><a href="about.html">  About</a></li>
+            <li><a href="tickets.html">  Tickets</a></li>
+            <li><a href="#">  Schedule</a></li>
+            <i id="close" class="fa fa-times"></i>
+
+        </ul>
+    </div>
 
     <section class="tickets">
         <div class="tickets-header">
@@ -97,5 +108,7 @@
               </div>
         </div>
        </div>
+       <script src="index.js"></script>
+
 </body>
 </html>
