@@ -281,6 +281,11 @@ header {
   padding: 20px;
 }
 
+#jira {
+  height: 70%;
+  width: 30%;
+}
+
 .f1container img {
   width: 50%;
 }
@@ -587,7 +592,14 @@ header {
 
   .f1container {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 85%;
+    margin: auto;
+  }
+
+  #jira {
+    height: 5rem;
+    width: 13rem;
   }
 
   .ticket-card-container {
