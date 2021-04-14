@@ -95,7 +95,7 @@ header {
 #close {
   font-size: 1.5rem;
   cursor: pointer;
-  margin-right:50%;
+  margin-right: 50%;
   color: var(--redish-color);
 }
 
