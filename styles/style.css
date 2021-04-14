@@ -29,6 +29,23 @@
   color: #fff;
 }
 
+.top-header {
+  width: 100%;
+  background-color: var(--greyish-color);
+}
+
+.top-header-socials {
+  padding: 2px 140px;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.top-header-socials a {
+  margin: 5px 15px;
+  color: var(--dark-color);
+  text-decoration: none;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -42,6 +59,10 @@ header {
 
 .tab-nav {
   display: none;
+}
+
+#burger {
+  cursor: pointer;
 }
 
 .mobile-links {
@@ -74,6 +95,7 @@ header {
 #close {
   margin: auto;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .timeplace {
@@ -290,9 +312,13 @@ header {
   font-size: 1.2rem;
   font-weight: bold;
   text-align: center;
-  border-right: 1px solid;
+  border-right: 1px solid grey;
   padding: 0.5px 10px;
   color: var(--redish-color);
+}
+
+.footer-link:last-child {
+  border-right: none;
 }
 
 .footer-link a {
