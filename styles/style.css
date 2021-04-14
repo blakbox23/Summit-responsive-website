@@ -266,8 +266,11 @@ header {
 .footer1 {
   width: 100%;
   margin: auto;
- 
   padding: 2rem 2rem;
+}
+
+.footer1-list {
+  width: 98%;
 }
 
 .footer1 h2 {
