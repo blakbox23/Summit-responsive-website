@@ -30,7 +30,7 @@ The project requires the site to be responsive to the different screen sizes.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/blakbox23/NewyorkTimes/issues).
+Feel free to check the [issues page](https://github.com/blakbox23/capstone/issues/2).
 
 ## Show your support
 
@@ -38,9 +38,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to anyone whose code was used,
+- My learning partners, and
 - Unsplash
-- Inspiration
+
 
 
 ## 📝 License
