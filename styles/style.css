@@ -256,6 +256,11 @@ header {
 .f1container {
   flex-direction: column;
   align-items: center;
+  padding: 20px;
+}
+
+.f1container img {
+  width: 50%;
 }
 
 .footer2 {
