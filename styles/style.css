@@ -93,9 +93,10 @@ header {
 }
 
 #close {
-  margin: auto;
   font-size: 1.5rem;
   cursor: pointer;
+  margin-right:50%;
+  color: var(--redish-color);
 }
 
 .timeplace {
@@ -545,7 +546,7 @@ header {
   }
 
   .top-link-list li {
-    margin: 0 40px;
+    margin: 0 30px;
   }
 
   .top-link-list a {
