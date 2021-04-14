@@ -17,6 +17,26 @@ The project requires the site to be responsive to the different screen sizes.
 - CSS 3
 - Javascript
 
+## Getting Started
+
+No prerequisites
+
+To get a local copy:
+
+- Cloning repository:
+
+    1. Press the green button "Code" and copy the link.
+    2. Open terminal or Git Bash in a folder where you want to clone the repository.
+    3. Type command "git clone" and paste the link that you copied and press "Enter"
+    4. Find the "index.html" file and double click on it for display of the project.
+
+- Download zip file:
+
+   1. Press the green button "Code" and press "Download ZIP"
+   2.  Save the file and extract it in any folder you wish
+   3. Find the "index.html" file and double click on it for display of the project.
+
+
 ## Live Demo
 
 [Live Demo Link](https://blakbox23.github.io/capstone/)
