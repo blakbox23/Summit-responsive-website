@@ -51,30 +51,29 @@ header {
   margin: auto;
   display: none;
   position: fixed;
-  top:60px;
+  top: 60px;
   text-align: end;
-
-
 }
+
 .mobile-link-list {
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  width:100%;
+  width: 100%;
 }
 
-.mobile-link-list a{
+.mobile-link-list a {
   text-decoration: none;
   color: var(--dark-color);
 }
 
-.mobile-link-list li{
-  margin:5px;
+.mobile-link-list li {
+  margin: 5px;
 }
 
 #close {
   margin: auto;
-  font-size:1.5rem;
+  font-size: 1.5rem;
 }
 
 .timeplace {
@@ -101,7 +100,6 @@ header {
   font-weight: bold;
   text-decoration: none;
   color: var(--greyish-color);
-  
 }
 
 .landing-text {
@@ -127,12 +125,8 @@ header {
   font-weight: 700;
   padding: 0.6rem 1.25rem;
   border: none;
-}
-
-.lp-cta a {
-  text-decoration: none;
   color: #fff;
-
+  text-decoration: none;
 }
 
 /* MAIN PROGRAM AREA */
@@ -294,13 +288,11 @@ header {
   border-right: 1px solid;
   padding: 0.5px 10px;
   color: var(--redish-color);
-
 }
 
 .footer-link a {
   text-decoration: none;
   color: var(--redish-color);
-
 }
 
 .rights {
@@ -499,6 +491,7 @@ header {
 .not-found h1 {
   color: var(--redish-color);
 }
+
 /* END OF 404 PAGE */
 
 @media screen and (min-width: 768px) {
@@ -507,8 +500,8 @@ header {
   }
 
   .tab-nav {
-  margin-right: 100px;
-  display: block;
+    margin-right: 100px;
+    display: block;
   }
 
   .top-link-list {
