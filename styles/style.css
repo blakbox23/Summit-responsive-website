@@ -40,7 +40,7 @@ body {
 .gr-background {
   background-color: rgba(252, 224, 224, 0.85);
   font-weight: bold;
-  color:darkslategray;
+  color: darkslategray;
 }
 
 .white {
@@ -156,8 +156,7 @@ header {
 }
 
 .landing-page h3 {
-  font-family: "Cocogoose";
-
+  font-family: "Cocogoose", sans-serif;
 }
 
 .lp-cta {
@@ -375,7 +374,7 @@ header {
   margin: auto;
   margin-bottom: 50px;
   border: 5px solid;
-  border-image: 8 repeating-linear-gradient(290deg, rgb(126, 23, 23) 0.25rem, rgb(184, 60, 60) 0.5rem, rgb(109, 56, 207) 0,#fff 1rem);
+  border-image: 8 repeating-linear-gradient(290deg, rgb(126, 23, 23) 0.25rem, rgb(184, 60, 60) 0.5rem, rgb(109, 56, 207) 0, #fff 1rem);
 }
 
 .ticket-step-div {
@@ -399,15 +398,18 @@ header {
   margin: auto;
 }
 
-.day1-ticket, .day3-ticket{
+.day1-ticket,
+.day3-ticket {
   grid-template-columns: 1fr 1fr;
 }
 
 .mid-div {
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-.day1-ticket div, .mid-div div, .day3-ticket div {
+.day1-ticket div,
+.mid-div div,
+.day3-ticket div {
   padding: 10px 0;
 }
 
@@ -454,7 +456,7 @@ header {
 .tickets-header {
   text-align: center;
   padding: 20px;
-  margin-bottom: 20px 0;
+  margin-bottom: 20px;
 }
 
 .tickets-header h1 {
@@ -472,8 +474,7 @@ header {
   color: white;
   padding: 15px;
   text-align: center;
-  font-family: "Cocogoose";
-
+  font-family: "Cocogoose", sans-serif;
 }
 
 .ticket-card {
@@ -535,8 +536,7 @@ header {
   border: 1px solid grey;
   background-color: #fff;
   color: var(--dark-color);
-  font-family: "Cocogoose"
-
+  font-family: "Cocogoose", sans-serif;
 }
 
 .about-landing-footer {
@@ -564,8 +564,7 @@ header {
   padding: 20px;
   text-align: center;
   width: 76%;
-  font-family: "Cocogoose";
-
+  font-family: "Cocogoose", sans-serif;
 }
 
 .logo-wrap {
@@ -589,8 +588,8 @@ header {
   margin-top: 50px;
 }
 
-.pastconf>p {
-  font-family: "Cocogoose";
+.pastconf > p {
+  font-family: "Cocogoose", sans-serif;
 }
 
 .pastconf-card-text {
@@ -641,7 +640,7 @@ header {
 
 @media screen and (min-width: 768px) {
   .top-header {
-  display: block;
+    display: block;
   }
 
   .mobile-nav i {
