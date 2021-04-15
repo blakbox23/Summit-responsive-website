@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+@import url("https://db.onlinewebfonts.com/c/b4e46f03d0e03a9192dc3c2ad1a4e104?family=Cocogoose");
+
+:root {
+  --dark-color: #272a31;
+  --redish-color: #ec5242;
+  --greyish-color: #d3d3d3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.border {
+  border: 1px solid grey;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.gr-background {
+  background-color: rgba(252, 224, 224, 0.85);
+  font-weight: bold;
+  color: darkslategray;
+}
+
+.white {
+  color: #fff;
+}
+
+.top-header {
+  width: 100%;
+  background-color: var(--greyish-color);
+  display: none;
+}
+
+.top-header-socials {
+  padding: 2px 140px;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.top-header-socials a {
+  margin: 5px 15px;
+  color: var(--dark-color);
+  text-decoration: none;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  padding: 20px;
+  color: #fff;
+  background-color: rgba(56, 54, 54, 0.95);
+}
+
+.tab-nav {
+  display: none;
+}
+
+#burger {
+  cursor: pointer;
+}
+
+.mobile-links {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+  width: 100%;
+  margin: auto;
+  display: none;
+  position: fixed;
+  top: 60px;
+  text-align: end;
+}
+
+.mobile-link-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 100%;
+}
+
+.mobile-link-list a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+.mobile-link-list li {
+  margin: 5px;
+}
+
+#close {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 50%;
+  color: var(--redish-color);
+}
+
+.timeplace {
+  font-size: 2.2rem;
+}
+
+.landing-page {
+  width: 100%;
+  height: calc(100vh - 80px);
+  padding: 20px;
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
+    url('https://source.unsplash.com/2s3ILi-zP-o');
+  background-size: cover;
+  background-position: top;
+}
+
+.landing-logo a {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--greyish-color);
+}
+
+.landing-text {
+  color: #fff;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 20px;
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.landing-page h1,
+.landing-page h3 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.landing-page h3 {
+  font-family: "Cocogoose", sans-serif;
+}
+
+.lp-cta {
+  font-size: 1.5rem;
+  background-color: var(--redish-color);
+  margin-top: 30px;
+  width: 10rem;
+  font-weight: 700;
+  padding: 0.6rem 1.25rem;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* MAIN PROGRAM AREA */
+.main-program {
+  background: url('https://source.unsplash.com/2JONUbTfN38');
+  padding: 10px;
+  color: #fff;
+}
+
+.main-program h2 {
+  color: var(--dark-color);
+  text-align: center;
+}
+
+.topic-line {
+  color: var(--dark-color);
+  text-align: center;
+  width: 3%;
+  margin: 10px auto;
+  font-weight: bolder;
+}
+
+.main-prog-container {
+  padding: 10px;
+  flex-direction: column;
+}
+
+.main-prog-card {
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  margin: 10px;
+}
+
+.prog-card-icon {
+  width: 20%;
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.prog-card-title {
+  font-weight: bold;
+  color: var(--redish-color);
+  padding: 0 10px;
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.prod-card-textbody {
+  max-width: 80%;
+  margin-bottom: 20px;
+}
+
+/* END OF MAIN PROGRAM  */
+
+/* FEATURED SPEAKERS */
+
+.featured-speakers {
+  background-color: rgb(241, 239, 239);
+  padding-top: 20px;
+}
+
+.featured-speaker-container {
+  padding: 10px;
+  width: 97%;
+  margin: auto;
+}
+
+.featured-speakers h2 {
+  margin: 20px 0 0 20px;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.featured-speaker-card {
+  flex-direction: column;
+  padding-bottom: 50px;
+  width: 65%;
+  margin: 20px auto;
+  box-shadow: 5px 8px 8px #8888;
+}
+
+.speaker-card-text {
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.speaker-card-texttitle p {
+  color: var(--redish-color);
+  font-style: italic;
+}
+
+.speaker-card-image {
+  width: 100%;
+}
+
+.speaker-card-image img {
+  width: 100%;
+}
+
+.speaker-card-text,
+.speaker-card-texttitle {
+  padding: 5px;
+}
+
+/* END OF FEATURED SPEAKERS */
+
+/* FOOTER */
+.footer1 {
+  width: 100%;
+  margin: auto;
+  padding: 2rem 2rem;
+}
+
+.footer1-list {
+  width: 98%;
+}
+
+.footer1 h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.f1container {
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+#jira {
+  height: 70%;
+  width: 30%;
+}
+
+.f1container img {
+  width: 50%;
+}
+
+.footer2 {
+  justify-content: center;
+  background-color: var(--dark-color);
+  padding-top: 20px;
+}
+
+.social-icons {
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 10px 20px;
+  color: var(--greyish-color);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.f2-link-list {
+  justify-content: center;
+}
+
+.footer-link {
+  list-style: none;
+  margin: 2px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  border-right: 1px solid grey;
+  padding: 0.5px 10px;
+  color: var(--redish-color);
+}
+
+.footer-link:last-child {
+  border-right: none;
+}
+
+.footer-link a {
+  text-decoration: none;
+  color: var(--redish-color);
+}
+
+.rights {
+  color: #fff;
+  margin: 20px 10px 20px;
+  text-align: center;
+}
+
+.rights a {
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+}
+
+/* END OF FOOTER */
+
+/* TICKETS PAGE */
+.grid-table {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  border: 5px solid;
+  border-image: 8 repeating-linear-gradient(290deg, rgb(126, 23, 23) 0.25rem, rgb(184, 60, 60) 0.5rem, rgb(109, 56, 207) 0, #fff 1rem);
+}
+
+.ticket-step-div {
+  justify-content: center;
+  margin: 20px;
+}
+
+.step-border {
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 30px;
+}
+
+.step {
+  color: var(--redish-color);
+  font-weight: bold;
+  padding: 10px;
+}
+
+.ticket-step-div h2 {
+  margin: auto;
+}
+
+.day1-ticket,
+.day3-ticket {
+  grid-template-columns: 1fr 1fr;
+}
+
+.mid-div {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.day1-ticket div,
+.mid-div div,
+.day3-ticket div {
+  padding: 10px 0;
+}
+
+.ticket-section-button {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+.table-button {
+  font-size: 1.1rem;
+  background-color: var(--redish-color);
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  padding: 0.6rem 1.25rem;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.payment-table {
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.payment-table div {
+  padding: 20px 10px;
+}
+
+.payment-table-header {
+  grid-column: 1/4;
+  text-align: center;
+  padding: 10px;
+}
+
+.tickets {
+  width: 100%;
+  margin: auto;
+  background-color: rgb(248, 240, 240);
+}
+
+.tickets-header {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.tickets-header h1 {
+  font-size: 1.9rem;
+  color: var(--redish-color);
+  margin: 20px;
+}
+
+.ticket-card-container {
+  padding: 40px;
+}
+
+.ticket-card h3 {
+  background-color: var(--redish-color);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-family: "Cocogoose", sans-serif;
+}
+
+.ticket-card {
+  background-color: #fff;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.ticket-price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--redish-color);
+  text-align: center;
+  margin: 20px;
+}
+
+.ticket-body {
+  padding: 20px;
+}
+
+.ticket-button {
+  text-align: center;
+  margin: auto;
+}
+
+.ticket-button button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: var(--dark-color);
+}
+
+/* END OF TICKETS PAGE */
+
+/* ABOUT PAGE */
+
+.about-landing {
+  width: 100%;
+  margin: auto;
+  background: url('https://source.unsplash.com/aJTiW00qqtI');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+
+.about-landing-heading {
+  text-align: center;
+  padding: 50px 0;
+  color: rgb(240, 24, 24);
+  font-size: 1.5rem;
+}
+
+.about-landing-text {
+  text-align: center;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid grey;
+  background-color: #fff;
+  color: var(--dark-color);
+  font-family: "Cocogoose", sans-serif;
+}
+
+.about-landing-footer {
+  text-align: center;
+  padding: 20px 20px 70px;
+  font-size: 1.1rem;
+}
+
+.about-landing-footer a {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--dark-color);
+  margin-bottom: 50px;
+}
+
+.about-logo-section {
+  width: 96%;
+  margin: auto;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.about-logo-section p {
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  width: 76%;
+  font-family: "Cocogoose", sans-serif;
+}
+
+.logo-wrap {
+  width: 70%;
+  height: 250px;
+  margin: auto;
+  border: none;
+  margin-bottom: 20px;
+  background: url('https://source.unsplash.com/YaqTssZ-GZk');
+  background-size: cover;
+  background-position: center;
+}
+
+.pastconf {
+  width: 96%;
+  margin: auto auto 20px;
+  text-align: center;
+}
+
+.pastconf h2 {
+  margin-top: 50px;
+}
+
+.pastconf > p {
+  font-family: "Cocogoose", sans-serif;
+}
+
+.pastconf-card-text {
+  margin: 40px auto;
+}
+
+.pastconf p {
+  margin: auto;
+  padding: 5px;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 76%;
+}
+
+.pastconf-card {
+  min-width: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 15px 15px 50px 15px;
+  background: linear-gradient(to bottom, rgba(233, 79, 79, 0.6), rgba(233, 79, 79, 0.6)), url('https://source.unsplash.com/lz9D9xC9PQU');
+  background-size: cover;
+  background-position: center;
+}
+
+.pastconf-card-text p {
+  color: #fff;
+}
+
+.pastconf-card-text p:first-child {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* END OF ABOUT PAGE */
+
+/* 404 PAGE */
+.not-found {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 8rem;
+}
+
+.not-found h1 {
+  color: var(--redish-color);
+}
+
+/* END OF 404 PAGE */
+
+@media screen and (min-width: 768px) {
+  .top-header {
+    display: block;
+  }
+
+  .mobile-nav i {
+    display: none;
+  }
+
+  .tab-nav {
+    margin-right: 100px;
+    display: block;
+  }
+
+  .top-link-list {
+    list-style-type: none;
+  }
+
+  .top-link-list li {
+    margin: 0 30px;
+  }
+
+  .top-link-list a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.05rem;
+  }
+
+  .main-program {
+    padding: 80px 20px;
+  }
+
+  .main-prog-container {
+    flex-direction: row;
+  }
+
+  .main-prog-card {
+    flex-direction: column;
+    padding: 25px 5px 60px 5px;
+  }
+
+  .featured-speaker-container {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-speaker-card {
+    flex-direction: row;
+    width: 90%;
+    margin: 20px;
+  }
+
+  .speaker-card-text {
+    min-width: 50%;
+  }
+
+  .speaker-card-image img {
+    width: 100%;
+    padding: 10px;
+    height: 90%;
+  }
+
+  .f1container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 85%;
+    margin: auto;
+  }
+
+  #jira {
+    height: 5rem;
+    width: 13rem;
+  }
+
+  .ticket-card-container {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .grid-table {
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .mid-div {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .day3-ticket {
+    grid-template-columns: 1fr;
+  }
+
+  .desktop-hide {
+    display: none;
+  }
+
+  .footer2-logo,
+  .footer2-text {
+    width: 50%;
+    padding: 2rem;
+  }
+
+  .pastconf-card-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+
+  .pastconf-card {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .featured-speaker-container {
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+  }
+}

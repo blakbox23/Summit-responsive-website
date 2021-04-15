@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    crossorigin="anonymous" />  
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Tickets</title>
+</head>
+<body>
+
+    <header class="flex border">
+        <div class="landing-logo"><a href="index.html">HackerConf</a> </div>
+        <nav class="mobile-nav"><i class="fa fa-bars" id="burger"></i></nav>
+        <nav class="tab-nav">
+            <ul class="flex top-link-list">
+                <li><a href="index.html">  Home</a></li>
+                <li><a href="about.html">  About</a></li>
+                <li><a href="tickets.html">  Tickets</a></li>
+                <li><a href="404.html">  Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <div class="mobile-links">
+        <ul class=" mobile-link-list">
+            <li><a href="index.html">  Home</a></li>
+            <li><a href="about.html">  About</a></li>
+            <li><a href="tickets.html">  Tickets</a></li>
+            <li><a href="404.html">  Schedule</a></li>
+           <li><i id="close" class="fa fa-times"></i></li> 
+
+        </ul>
+    </div>
+
+
+
+    <section class="tickets">
+        <div class="tickets-header">
+            <h1>Tickets</h1>
+            <p>You can use 3rd party platforms such as eventbrite and tickettailor to sell your tickets.</p>
+        </div>
+
+        <div class="ticket-step-div flex">
+            <div class="step-border">
+               <p><span class="step">Step 1</span> Select the type of ticket you wish to purchase</p> 
+            </div>
+        </div>
+
+        <div class="table">
+            <form >
+    
+            <div class="grid-table grid">
+                <div class="day1-ticket grid border">
+                    <div class=" border gr-background">Ticket</div>
+                    <div class=" border gr-background">Regular</div>
+                    <div class=" border gr-background">Date</div>
+                    <div class=" border">15 Oct</div>
+                    <div class=" border gr-background">Non-member</div>
+                    <div class=" border">
+                        <input type="radio" id="non-bronze" name="btickets">
+                        <label for="non-bronze">$70</label>
+                    </div>
+                    <div class=" border gr-background">Member</div>
+                    <div class=" border">
+                        <input type="radio" id="bronze" name="btickets">
+                        <label for="bronze">$50</label>
+                    </div>
+                </div>
+    
+    
+                <div class=" grid border mid-div">
+    
+                    <div class="border desktop-hide gr-background">Ticket</div>
+                    <div class="text-right gr-background" >Gold</div>
+                    <div class="text-left gr-background" > -Tickets</div>
+                    <div class="border desktop-hide gr-background">Date</div>
+                    <div class="border">15 Oct</div>
+                    <div class="border">15-16 Oct </div>
+                    <div class="border desktop-hide gr-background">Non-member</div>
+                    <div class="border">
+                        <input type="radio" id="non-gold" name="btickets">
+                        <label for="non-gold">$170</label>
+                    </div>
+                    <div class="border">
+                        <input type="radio" id="non-gold2" name="btickets">
+                        <label for="non-gold2">$300</label>
+                    </div>
+                    <div class="border desktop-hide gr-background">Member</div>
+                    <div class="border">
+                        <input type="radio" id="gold" name="btickets">
+                        <label for="gold">$100</label>
+                    </div>
+                    <div class="border">
+                        <input type="radio" id="gold2" name="btickets">
+                        <label for="gold2">$120</label>
+                    </div>
+    
+                </div>
+          
+                <div class="day3-ticket grid border">
+                    <div class=" border desktop-hide gr-background">Ticket</div>
+                    <div class=" border gr-background">Platinum Tickets</div>
+                    <div class=" border desktop-hide gr-background">Date</div>
+                    <div class=" border">15 Oct</div>
+                    <div class=" border desktop-hide gr-background">Non-member</div>
+                    <div class=" border">
+                        <input type="radio" id="non-platinum" name="btickets">
+                        <label for="non-platinum">$370</label>
+                    </div>
+                    <div class=" border desktop-hide gr-background">Member</div>
+                    <div class=" border">
+                        <input type="radio" id="platinum" name="btickets">
+                        <label for="platinum">$300</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ticket-step-div flex">
+                <div class="step-border">
+                   <p><span class="step">Step 2</span> Select how you wish to pay for tickets for this conference</p> 
+                </div>
+            </div>
+       
+            <div class="payment-table grid border">
+                <div class="gr-background payment-table-header" >Payment Method</div>
+                <div>   
+                    <input type="radio" id="online" name="payment-method">
+                    <label for="online">Online</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="tokens" name="payment-method">
+                    <label for="tokens">Tokens</label>
+                </div>
+                <div>
+                    <input type="radio" id="crypto" name="payment-method">
+                    <label for="crypto">Crypto</label>
+                </div>
+            </div>
+       
+
+        <div class="flex ticket-section-button">
+        <input type="submit" class=" table-button" value="Get Ticket">
+         </div>
+        </form>
+    </div>
+
+  
+
+    <div class="tickets-header">
+        <h2>Stream Online</h2>
+        <p>You can use 3rd party platforms such as eventbrite and tickettailor to sell your tickets.</p>
+    </div>
+     
+        <div class="ticket-card-container">
+            <div class="ticket-card">
+                <h3>Bronze Ticket</h3>
+                <div class="ticket-card-body">
+                    <div class="ticket-price">$50</div>
+                    <div class="ticket-body">
+                        <p>Purchase before 1st Oct 2021. Only 50 tickets available. You can also redeem your member tokens to get yourself a ticket </p>
+                    </div>
+                    <div class="ticket-button">
+                        <button type="button">Stream Live</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="ticket-card">
+                <h3>Gold Ticket</h3>
+                <div class="ticket-card-body">
+                    <div class="ticket-price">$150</div>
+                    <div class="ticket-body">
+                        <p>Purchase before 1st July 2020. Only 50 tickets available. You can also redeem your member tokens to get yourself a ticket  </p>
+                    </div>
+                    <div class="ticket-button">
+                        <button type="button">Stream Live</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="ticket-card">
+                <h3>Platinum Ticket</h3>
+                <div class="ticket-card-body">
+                    <div class="ticket-price">$300</div>
+                    <div class="ticket-body">
+                        <p>Purchase before 1st May 2020. Only 50 tickets available. You can also redeem your member tokens to get yourself a ticket  </p>
+                    </div>
+                    <div class="ticket-button">
+                        <button type="button">Stream Live</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer2 flex ">
+           
+        <div class="footer2-logo ">
+            <div class="social-icons flex">
+                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-tumblr"></i></a>
+             </div>
+             <div class="footer-2-links">
+                <ul class="flex f2-link-list">
+                    <li class="footer-link"><a href="index.html"> Home </a></li>
+                    <li class="footer-link"><a href="about.html"> About </a></li>
+                    <li class="footer-link"><a href="tickets.html"> Tickets </a></li>
+                   
+                </ul>
+              </div>
+              <div class="rights">
+                <p>Designed with <i class="fa fa-heart"></i> 
+                    by <a href="https://github.com/blakbox23" >Blakbox23</a>
+                    
+                </p>
+              </div>
+        </div>
+       </div>
+       <script src="index.js"></script>
+
+</body>
+</html>
