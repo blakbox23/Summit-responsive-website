@@ -640,7 +640,9 @@ header {
 /* END OF 404 PAGE */
 
 @media screen and (min-width: 768px) {
-
+  .top-header {
+  display: block;
+  }
 
   .mobile-nav i {
     display: none;
