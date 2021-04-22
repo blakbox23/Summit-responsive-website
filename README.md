@@ -7,7 +7,6 @@ The project requres three pages:
 
 ![screenshot](./images/DeskConf.PNG)
 
-
 The project requires the site to be responsive to the different screen sizes.
 
 ## Bult With
