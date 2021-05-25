@@ -42,7 +42,7 @@ To get a local copy:
 ## Authors
 - GitHub: [@Blakbox23](https://github.com/blakbox23)
 - Twitter: [@blakbox23](https://twitter.com/blakbox23)
-- LinkedIn: [Peter Mbuthia](https://www.linkedin.com/in/peter-mbuthia-b15791182/)
+- LinkedIn: [Peter Mbuthia](https://www.linkedin.com/in/peter-mbuthia)
 
 ## 🤝 Contributing
 
