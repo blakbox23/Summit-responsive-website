@@ -48,7 +48,7 @@ To get a local copy:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/blakbox23/capstone/issues/2).
+Feel free to check the [issues page](https://github.com/blakbox23/Summit-responsive-website/issues/2).
 
 ## Show your support
 
