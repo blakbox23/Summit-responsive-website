@@ -37,7 +37,7 @@ To get a local copy:
 
 ## Live Demo
 
-[Live Demo Link](https://blakbox23.github.io/capstone/)
+[Live Demo Link](https://blakbox23.github.io/Summit-responsive-website/)
 
 ## Authors
 - GitHub: [@Blakbox23](https://github.com/blakbox23)
