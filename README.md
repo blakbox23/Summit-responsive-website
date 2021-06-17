@@ -57,8 +57,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used,
-- My learning partners, and
-- Unsplash
+- My learning partners and stand up team
+
 
 
 
