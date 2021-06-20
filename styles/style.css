@@ -127,8 +127,8 @@ header {
   height: calc(100vh - 80px);
   padding: 20px;
   background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)),
-    url('https://source.unsplash.com/2s3ILi-zP-o');
+     linear-gradient(to bottom, rgba(215, 0, 0, 0.5), rgba(150, 0, 0, 0.1)), 
+    url('https://source.unsplash.com/2xaF4TbjXT0');
   background-size: cover;
   background-position: top;
 }
