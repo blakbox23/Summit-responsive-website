@@ -5,7 +5,7 @@ This project requires three pages:
 - About page
 - Tickets page
 
-![screenshot](./images/DeskConf.PNG)
+![screenshot](./images/techconf.PNG)
 
 The project requires the site to be responsive to the different screen sizes.
 
