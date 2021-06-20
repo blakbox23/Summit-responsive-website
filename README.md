@@ -1,6 +1,6 @@
 # TechConf Capstone Project
-The goal of this project was to build a conference or summit website which offers information about the conference
-The project requres three pages:
+The goal of this project was to build a conference or summit website which offers information about a conference.
+This project requires three pages:
 - Main page
 - About page
 - Tickets page
@@ -25,14 +25,14 @@ To get a local copy:
 
     1. Press the green button "Code" and copy the link.
     2. Open terminal or Git Bash in a folder where you want to clone the repository.
-    3. Type command "git clone" and paste the link that you copied and press "Enter"
-    4. Find the "index.html" file and double click on it for display of the project.
+    3. Type the command `git clone https://github.com/blakbox23/Summit-responsive-website.git` and press "Enter"
+    4. Find the "index.html" file and double click on it to display the project.
 
-- Download zip file:
+- Downloading zip file:
 
    1. Press the green button "Code" and press "Download ZIP"
-   2.  Save the file and extract it in any folder you wish
-   3. Find the "index.html" file and double click on it for display of the project.
+   2. Save the file and extract it in any folder you wish
+   3. Find the "index.html" file and double click on it to display the project.
 
 
 ## Live Demo
@@ -48,7 +48,7 @@ To get a local copy:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/blakbox23/Summit-responsive-website/issues/2).
+Feel free to check the [issues page](https://github.com/blakbox23/Summit-responsive-website/issues/).
 
 ## Show your support
 
@@ -56,10 +56,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used,
-- My learning partners, and
-- Unsplash
-
+- My learning partners and stand up team
+- unsplash.com
 
 
 ## 📝 License
