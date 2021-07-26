@@ -1,4 +1,4 @@
-# TechConf Capstone Project
+# TechConf Project
 The goal of this project was to build a conference or summit website which offers information about a conference.
 This project requires three pages:
 - Main page
